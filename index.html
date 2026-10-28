@@ -3,272 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Armordillo Hub SA | Internal Knowledge & Documentation Portal</title>
-    <style>
-        :root {
-            --primary-blue: #0B2545;
-            --secondary-blue: #134074;
-            --platinum: #F4F5F7;
-            --volt-gold: #FF9F1C;
-            --dark-text: #1D2A44;
-            --card-bg: #FFFFFF;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--platinum);
-            color: var(--dark-text);
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: var(--primary-blue);
-            color: white;
-            padding: 2.5rem 1rem;
-            text-align: center;
-            border-bottom: 4px solid var(--volt-gold);
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.2rem;
-            letter-spacing: 1px;
-        }
-
-        header p {
-            margin: 0.5rem 0 0 0;
-            opacity: 0.9;
-            font-size: 1.1rem;
-        }
-
-        .container {
-            max-width: 1000px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-        }
-
-        section {
-            background: var(--card-bg);
-            border-radius: 8px;
-            padding: 2rem;
-            margin-bottom: 2rem;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-        }
-
-        h2 {
-            color: var(--secondary-blue);
-            border-bottom: 2px solid var(--platinum);
-            padding-bottom: 0.5rem;
-            margin-top: 0;
-        }
-
-        .badge {
-            background-color: var(--volt-gold);
-            color: var(--primary-blue);
-            font-weight: bold;
-            padding: 0.2rem 0.6rem;
-            border-radius: 4px;
-            font-size: 0.85rem;
-            display: inline-block;
-            margin-bottom: 1rem;
-        }
-
-        pre {
-            background: #272822;
-            color: #f8f8f2;
-            padding: 1rem;
-            border-radius: 6px;
-            overflow-x: auto;
-            font-family: "Courier New", Courier, monospace;
-            font-size: 0.9rem;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 1rem 0;
-        }
-
-        table, th, td {
-            border: 1px solid #E2E8F0;
-        }
-
-        th {
-            background-color: var(--primary-blue);
-            color: white;
-            text-align: left;
-            padding: 0.75rem;
-        }
-
-        td {
-            padding: 0.75rem;
-            background-color: #FAFAFA;
-        }
-
-        .faq-item {
-            margin-bottom: 1.5rem;
-        }
-
-        .faq-item strong {
-            color: var(--primary-blue);
-            display: block;
-            margin-bottom: 0.25rem;
-            font-size: 1.1rem;
-        }
-
-        footer {
-            text-align: center;
-            padding: 2rem;
-            color: #718096;
-            font-size: 0.9rem;
-        }
-    </style>
+    <title>Armordillo Hub SA | Secure, Anonymous Electronics Escrow</title>
+    <meta name="description" content="South Africa’s secure, anonymous escrow broker for electronics trading. Eliminate marketplace scams, fake EFTs, and high-risk meetups with zero-contact proxy trading.">
+    <script src="https://jsdelivr.net"></script>
+    <link rel="stylesheet" href="https://cloudflare.com">
 </head>
-<body>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased selection:bg-amber-500 selection:text-slate-950">
 
-    <header>
-        <h1>🛡️ ARMORDILLO HUB SOUTH AFRICA</h1>
-        <p>Anonymous Tech Escrow Platform Operations Manual</p>
+    <!-- Navigation -->
+    <nav class="border-b border-slate-800 bg-slate-950/80 backdrop-blur-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <i class="fa-solid fa-shield-halved text-amber-500 text-2xl"></i>
+                <span class="font-bold text-xl tracking-tight text-white">Armordillo<span class="text-amber-500">Hub</span></span>
+            </div>
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+                <a href="#how-it-works" class="hover:text-amber-500 transition">How It Works</a>
+                <a href="#protection" class="hover:text-amber-500 transition">Security</a>
+                <a href="#pricing" class="hover:text-amber-500 transition">Fees</a>
+            </div>
+            <div>
+                <a href="#start" class="bg-amber-500 hover:bg-amber-400 text-slate-950 font-semibold px-4 py-2 rounded-lg text-sm transition shadow-lg shadow-amber-500/10">
+                    Start a Trade
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative overflow-hidden py-20 lg:py-32 border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="max-w-3xl">
+                <div class="inline-flex items-center gap-2 bg-amber-500/10 text-amber-400 px-3 py-1 rounded-full text-xs font-semibold mb-6 border border-amber-500/20">
+                    <i class="fa-solid fa-flag-za"></i> 100% South African Escrow Framework
+                </div>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-none mb-6">
+                    Trade pre-owned tech with <span class="text-amber-500">absolute peace of mind.</span>
+                </h1>
+                <p class="text-lg sm:text-xl text-slate-400 mb-10 leading-relaxed">
+                    Armordillo Hub is South Africa’s secure, anonymous escrow broker for electronics trading. Our zero-contact framework completely eliminates marketplace scams, fake EFTs, and high-risk meetups by managing all payments, item verification, and proxy courier shipping securely.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#start" class="bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold px-8 py-4 rounded-xl text-center transition shadow-xl shadow-amber-500/20">
+                        Secure Your First Trade
+                    </a>
+                    <a href="#how-it-works" class="bg-slate-800 hover:bg-slate-700 text-white font-medium px-8 py-4 rounded-xl text-center transition border border-slate-700">
+                        See How It Works
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(245,158,11,0.05),transparent_45%)]"></div>
     </header>
 
-    <div class="container">
-
-        <!-- SECTION 1: BUSINESS CONCEPT & ANNOUNCEMENT -->
-        <section>
-            <h2>📢 Community Welcome Announcement</h2>
-            <div class="badge">Pinned Post Template</div>
-            <p><strong>Welcome to Armordillo Hub SA – The Armoured Marketplace for Secure Tech!</strong> 🛡️⚡</p>
-            <p>Tired of fake electronic scams, fraudulent electronic fund transfers (EFTs), and dangerous meetups? You are in the right place. <strong>Armordillo Hub is South Africa's zero-scam zone for buying and selling electronics.</strong></p>
-            <p>We act as your platform's protective shell. To guarantee 100% safety, we run a strict <strong>Admin Escrow System</strong> for all transactions in this group.</p>
-            <p><strong>How it works:</strong></p>
-            <ol>
-                <li><strong>The Deal:</strong> Buyer and seller agree on a price for an item.</li>
-                <li><strong>The Shell (Secure Hold):</strong> The buyer pays the funds directly to the verified Armordillo Hub Admin account. We securely hold the money.</li>
-                <li><strong>The Handover:</strong> The seller ships the item via an approved courier (e.g., Pudo) to an anonymous locker or address.</li>
-                <li><strong>The Release:</strong> Once the buyer inspects the device and confirms it is exactly as advertised, we release the payout to the seller instantly.</li>
-            </ol>
-            <p><em>No fake proof of payment scams. No ghosting. No risk.</em></p>
-        </section>
-
-        <!-- SECTION 2: WORKFLOW & INTAKE FORMS -->
-        <section>
-            <h2>🗂️ Private Seller Intake Form</h2>
-            <div class="badge">Internal Staff Facing</div>
-            <p>Send this format via private DM to sellers looking to list items on the channel:</p>
-            <pre>🔒 ARMORDILLO HUB - PRIVATE SELLER INTAKE FORM
-
-Please fill out the details below to list your device anonymously:
-
-1. Full Name:
-2. Bank Account Details (For your payout):
-   - Bank Name:
-   - Account Number:
-   - Account Type:
-3. Exact Collection Address (For our courier):
-4. Contact Number (Internal use only):
-5. Item Name & Model:
-6. Your Net Asking Price: R
-7. Device Condition Details:
-   - Battery Health (if phone/laptop):
-   - Screen condition (cracks, scratches?):
-   - Any functional faults?:
-8. Included accessories (Box, original charger?):
-
-📸 Please attach:
-- 3 clear photos of the device (Front, Back, Sides)
-- A 5-second video of the device turned on and working.</pre>
-        </section>
-
-        <!-- SECTION 3: PUBLIC ANONYMOUS CATALOG TEMPLATE -->
-        <section>
-            <h2>📱 Public Anonymous Catalog Listing</h2>
-            <div class="badge">Channel Paste Template</div>
-            <pre>🛡️ VERIFIED LISTING | ARMORDILLO HUB 
-Item ID: #AH-1042
-
-📦 PRODUCT: Apple iPhone 13 (128GB)
-🎨 COLOR: Midnight Black
-💵 TOTAL PRICE: R 6,490 (Includes Secure Door-to-Door Shipping)
-
-⚙️ CERTIFIED SPECIFICATIONS & CONDITION:
-- Battery Health: 86% (Optimal performance)
-- Screen Condition: 10/10 (Tempered glass screen protector fitted)
-- Body Condition: 9/10 (Minor superficial scuff on bottom corner)
-- Functionality: 100% Fully tested (FaceID, Cameras, Speakers work)
-- Network Status: Open to all South African networks (ICASA Approved)
-
-🎁 WHAT’S IN THE BOX:
-- iPhone 13 (128GB)
-- Original Box
-- USB-C to Lightning Charging Cable (New)
-
-🔒 THE ARMORDILLO GUARANTEE:
-This item has been vetted by our team. Because we use a 100% Anonymous Broker System, the buyer and seller never meet or exchange numbers. Your funds are held securely in our trust vault until the item arrives at your door and passes your 12-hour testing window.
-
-🛒 HOW TO BUY:
-Send a Direct Message to the Admin with the Item ID (#AH-1042) to secure this device.</pre>
-        </section>
-
-        <!-- SECTION 4: GOOGLE SHEETS TRACKER WORKSPACE -->
-        <section>
-            <h2>📊 Google Sheets Tracker Blueprint</h2>
-            <div class="badge">Accounting &amp; Margin Ledger</div>
-            <p>Set up your free Google Sheet workspace using these columns to calculate pricing automatedly:</p>
-            <table>
-                <tr>
-                    <th>Column</th>
-                    <th>Header Title</th>
-                    <th>Formula / Input Guide</th>
-                </tr>
-                <tr>
-                    <td>A</td>
-                    <td>Item ID</td>
-                    <td>Manual unique serial allocation (e.g., <code>AH-1001</code>)</td>
-                </tr>
-                <tr>
-                    <td>B</td>
-                    <td>Item Description</td>
-                    <td>Device details</td>
-                </tr>
-                <tr>
-                    <td>C</td>
-                    <td>Seller Name</td>
-                    <td>Private seller reference identity</td>
-                </tr>
-                <tr>
-                    <td>D</td>
-                    <td>Seller Asking Price</td>
-                    <td>The net payout money required by the seller</td>
-                </tr>
-                <tr>
-                    <td>E</td>
-                    <td>Courier Cost</td>
-                    <td>Pudo Locker or Waybill cost matrix</td>
-                </tr>
-                <tr>
-                    <td>F</td>
-                    <td>Admin Fee (Profit)</td>
-                    <td>Your calculated escrow service net profit slice</td>
-                </tr>
-                <tr>
-                    <td>G</td>
-                    <td>Buyer Total Price</td>
-                    <td><strong>Formula:</strong> <code>=D2+E2+F2</code></td>
-                </tr>
-            </table>
-        </section>
-
-        <!-- SECTION 5: PLATFORM FAQ -->
-        <section>
-            <h2>❓ Frequently Asked Questions (FAQ)</h2>
-            <div class="badge">Public Facing Documentation</div>
-            
-            <div class="faq-item">
-                <strong>1. What is Armordillo Hub?</strong>
-                <p>We are South Africa's first 100% anonymous, secure broker for second-hand electronics. We act as an armored shell between buyers and sellers to eliminate marketplace theft, fake EFTs, and dangerous meetups.</p>
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="py-20 bg-slate-950">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold text-white mb-4">The Zero-Contact Trading Protocol</h2>
+                <p class="text-slate-400">We act as the anonymous, armored buffer between buyer and seller. No dangerous face-to-face meetings, no identity leaks.</p>
             </div>
 
-            <div class="faq-item">
-                <strong>2. Why can't buyers and sellers talk directly?</strong>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Step 1 -->
+                <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800 relative">
+                    <div class="w-12 h-12 bg-amber-500/10 text-amber-500 rounded-xl flex items-center justify-center font-bold text-lg mb-6 border border-amber-500/20">1</div>
+                    <h3 class="text-lg font-semibold text-white mb-2">Secure Deposit</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">The buyer deposits funds into the Armordillo Hub escrow system via secure EFT or card. Funds are locked safely.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800 relative">
+                    <div class="w-12 h-12 bg-amber-500/10 text-amber-500 rounded-xl flex items-center justify-center font-bold text-lg mb-6 border border-amber-500/20">2</div>
+                    <h3 class="text-lg font-semibold text-white mb-2">Proxy Shipping</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">The seller ships the electronic item to an Armordillo verification node using our integrated locker-to-locker/courier system.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800 relative">
+                    <div class="w-12 h-12 bg-amber-500/10 text-amber-500 rounded-xl flex items-center justify-center font-bold text-lg mb-6 border border-amber-500/20">3</div>
+                    <h3 class="text-lg font-semibold text-white mb-2">Hardware Audit</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Our experts verify that the device matches the condition, specifications, and hardware diagnostics promised by the seller.</p>
+                </div>
+                <!-- Step 4 -->
+                <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800 relative">
+                    <div class="w-12 h-12 bg-amber-500/10 text-amber-500 rounded-xl flex items-center justify-center font-bold text-lg mb-6 border border-amber-500/20">4</div>
+                    <h3 class="text-lg font-semibold text-white mb-2">Payout & Forward</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Once verified, funds are instantly cleared to the seller, and the device is forwarded safely to the buyer's destination.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scam Mitigation Showcase -->
+    <section id="protection" class="py-20 border-t border-slate-800 bg-slate-900">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold text-white mb-6">Designed to neutralize SA marketplace threats</h2>
+                    <p class="text-slate-400 mb-8">Traditional classified platforms leave you vulnerable to coordinated criminal tactics. Armordillo Hub natively mitigates the most common local exploits:</p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex gap-4">
+                            <div class="mt-1 text-rose-500"><i class="fa-solid fa-ban"></i></div>
+                            <div>
+                                <h4 class="text-white font-semibold">Fake EFT Proofs</h4>
+                                <p class="text-slate-400 text-sm">Sellers never ship until funds are completely cleared and settled inside our holding account. Fake SMS or photoshopped PDFs won't work.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="mt-1 text-rose-500"><i class="fa-solid fa-ban"></i></div>
+                            <div>
+                                <h4 class="text-white font-semibold">High-Risk Meetups</h4>
+                                <p class="text-slate-400 text-sm">Eliminate the danger of parking lot or roadside robberies. Transactions are fully remote and handled entirely via proxy transit networks.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="mt-1 text-rose-500"><i class="fa-solid fa-ban"></i></div>
+                            <div>
+                                <h4 class="text-white font-semibold">"Brick in a Box" Scams</h4>
+                                <p class="text-slate-400 text-sm">Buyers never receive an empty box or a broken device. Our intermediary technical inspection confirms device integrity before any money leaves escrow.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-slate-950 p-8 rounded-2xl border border-slate-800">
+                    <div class="flex items-center gap-3 mb-6 pb-6 border-b border-slate-800">
+                        <i class="fa-solid fa-user-secret text-amber-500 text-xl"></i>
+                        <div>
+                            <h3 class="text-white font-bold">100% Anonymous Framework</h3>
+                            <p class="text-xs text-slate-500">Your privacy is your ultimate security detail.</p>
+                        </div>
+                    </div>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-4">
